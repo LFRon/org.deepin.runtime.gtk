@@ -16,7 +16,7 @@ build: |
 
 sources:
   # linglong:gen_deb_source sources amd64 https://community-packages.deepin.com/deepin/beige crimson main commercial community
-  # linglong:gen_deb_source install libgtk-4-1, libgtk-4-common, libwebkit2gtk-4.1-0, libgtk-4-media-gstreamer
+  # linglong:gen_deb_source install libgtk-4-1, libgtk-4-common, libwebkit2gtk-4.1-0, libadwaita-1-0, libgtk-4-media-gstreamer, libavif16
   - kind: file
     url: https://community-packages.deepin.com/deepin/beige/pool/main/a/adduser/adduser_3.131-1deepin2_all.deb
     digest: 7165c1918cafcb0e026649217b0ae58a77a143a6b39650313cdfc29fd1087492
@@ -24,8 +24,8 @@ sources:
     url: https://community-packages.deepin.com/deepin/beige/pool/main/a/adwaita-icon-theme/adwaita-icon-theme_45.0-2_all.deb
     digest: 709761989d315d674f0e14c837afdd256ef58c941e49889307eb41f969e69069
   - kind: file
-    url: https://community-packages.deepin.com/deepin/beige/pool/main/i/ispell-uk/aspell-uk_1.8.0+dfsg-1_all.deb
-    digest: 70ed650cd85debf85f454ca141d7e65eeefa390aad939d2347143f2fa04ad7ab
+    url: https://community-packages.deepin.com/deepin/beige/pool/main/a/aspell-kk/aspell-kk_0.2-3_all.deb
+    digest: a8fa185aa37e415969325cef57fbe0a478cb0b420b27a9b40a6e37967fe213e5
   - kind: file
     url: https://community-packages.deepin.com/deepin/beige/pool/main/a/aspell/aspell_0.60.8-6_amd64.deb
     digest: d0a1cf2583ca5ed794671c4156ff6d03c7ceb7166c8d752f828f17ebdde4c7b6
@@ -138,8 +138,11 @@ sources:
     url: https://community-packages.deepin.com/deepin/beige/pool/main/s/scowl/hunspell-en-us_2020.12.07-1_all.deb
     digest: 6a8253970b5399571a39d53de050d169ed3eae866aa656b0dea37531a68549de
   - kind: file
-    url: https://community-packages.deepin.com/deepin/beige/pool/main/d/dsdo/idanish_1.6.36-11.1_amd64.deb
-    digest: eb3bb0efc3b0d4eadce85b3e6da2734132dc7b9d3517cbc4cb87b7ff974fb76d
+    url: https://community-packages.deepin.com/deepin/beige/pool/main/i/ispell/iamerican_3.4.02-2_all.deb
+    digest: 05a93ec14dedb8fcac615b11d60f48ec83a534c1b7497f4408bda70e687298d3
+  - kind: file
+    url: https://community-packages.deepin.com/deepin/beige/pool/main/i/ispell/ienglish-common_3.4.02-2_all.deb
+    digest: 7d9c9bbe2db42af0a15f7374cbd6e56d4b16341c86867b7c2f301d119658e1bc
   - kind: file
     url: https://community-packages.deepin.com/deepin/beige/pool/main/i/init-system-helpers/init-system-helpers_1.66_all.deb
     digest: 60bb52a4118d514e4d480707329a798ae21d135a96ddb9811d7e6bd0e7f2101f
@@ -159,11 +162,17 @@ sources:
     url: https://community-packages.deepin.com/deepin/beige/pool/main/a/acl/libacl1_2.3.1-3_amd64.deb
     digest: e7235d27da99795b0ca6c6bc5e8d6e84702335063fe9d08b19320c0bc965679c
   - kind: file
+    url: https://community-packages.deepin.com/deepin/beige/pool/main/liba/libadwaita-1/libadwaita-1-0_1.5.0-1deepin1+rb1_amd64.deb
+    digest: f41ca249b3f7fcf8d7f7d2265d2c6fe0bc7ea70632e8d08c38298487f547c7eb
+  - kind: file
     url: https://community-packages.deepin.com/deepin/beige/pool/main/a/aom/libaom3_3.9.1-1_amd64.deb
     digest: 6cfd746dd55a96fca3e058faf82c7400ddf50017bff6f7cfed6ad1f6ee637ad0
   - kind: file
     url: https://community-packages.deepin.com/deepin/beige/pool/main/a/apparmor/libapparmor1_3.0.13-2_amd64.deb
     digest: 03d19b350ee32c5462bced7877432a39a60c71f0cdfe945ec2a63a1ea948b573
+  - kind: file
+    url: https://community-packages.deepin.com/deepin/beige/pool/main/a/appstream/libappstream5_1.0.3-1_amd64.deb
+    digest: 47b1ac284eab4e55d4bd31405fcb9565ee3d0261ae5079a16b5179c9adeb1b16
   - kind: file
     url: https://community-packages.deepin.com/deepin/beige/pool/main/a/alsa-lib/libasound2-data_1.2.12-1deepin1_all.deb
     digest: 4990cab9125078d6b8ef1caaeabb597ecda80949d02d251903fd496272f59fbf
@@ -212,6 +221,9 @@ sources:
   - kind: file
     url: https://community-packages.deepin.com/deepin/beige/pool/main/liba/libavif/libavif15_0.11.1-3_amd64.deb
     digest: 572845eabad9ceadcfd1923b940e4c56d4b9cc0636134774cd3a2dd9a1c35701
+  - kind: file
+    url: https://community-packages.deepin.com/deepin/beige/pool/main/liba/libavif/libavif16_1.1.1-1_amd64.deb
+    digest: 9f08109a94f51b83d9b2d59bee2863a21eac1aca368a81ad7c1f8cabe4ad9167
   - kind: file
     url: https://community-packages.deepin.com/deepin/beige/pool/main/u/util-linux/libblkid1_2.40.4-3deepin4_amd64.deb
     digest: 567b0f1dfc7844c74fcca08a18d6f0d527caf16278e205095522a0454ca23918
@@ -510,8 +522,8 @@ sources:
     url: https://community-packages.deepin.com/deepin/beige/pool/main/libi/libiec61883/libiec61883-0_1.2.0-4_amd64.deb
     digest: 3594357265e80dea70f31e6c9b496130868697bbe32ed268ef6219debde71494
   - kind: file
-    url: https://community-packages.deepin.com/deepin/beige/pool/main/w/webkit2gtk/libjavascriptcoregtk-4.1-0_2.48.0-1_amd64.deb
-    digest: 6addc315fbef11d7dbffec75be9b928ceca5975c2a2142df68f596bc297e95aa
+    url: https://github.com/LFRon/webkit2gtk-for-linyaps/releases/download/2.48.0-1/libjavascriptcoregtk-4.1-0_2.48.0-1_amd64.deb
+    digest: b819012853ab8f69f8e6218bce4c8b907c375467c0bf1f78f02de963cefb4042
   - kind: file
     url: https://community-packages.deepin.com/deepin/beige/pool/main/j/jbigkit/libjbig0_2.1-3.1-deepin1_amd64.deb
     digest: 98eb75afc9dd66ec83f782a46aad59b0add9aad5ac521e91e35d606bb6313147
@@ -747,6 +759,9 @@ sources:
     url: https://community-packages.deepin.com/deepin/beige/pool/main/g/gcc-13/libstdc++6_13.2.0-3deepin4_amd64.deb
     digest: e2c664c12b609801da2f8cdba3ad5b19ba7bd3fcfe3d47dab5b14f5a67919f57
   - kind: file
+    url: https://community-packages.deepin.com/deepin/beige/pool/main/s/snowball/libstemmer0d_2.2.0-4_amd64.deb
+    digest: d05593b11c998ecb21efed0209790720520ee357368f7c1c978a11806be5d7a6
+  - kind: file
     url: https://community-packages.deepin.com/deepin/beige/pool/main/s/svt-av1/libsvtav1enc1d1_1.7.0+dfsg-2_amd64.deb
     digest: fbdb57f1b3b245ef8d92d7a29bd0b054fec010ffd245b1d633172674acbdd7cd
   - kind: file
@@ -843,8 +858,8 @@ sources:
     url: https://community-packages.deepin.com/deepin/beige/pool/main/w/wayland/libwayland-server0_1.23.0-1_amd64.deb
     digest: a63916b242532f6c621674b8dea3fc9e0c55f6592409edeb9146f8b978ec5a6e
   - kind: file
-    url: https://community-packages.deepin.com/deepin/beige/pool/main/w/webkit2gtk/libwebkit2gtk-4.1-0_2.48.0-1_amd64.deb
-    digest: 9c13c47584ab12c63559364f94c2579237e94d974093e32ad53884e436d7828a
+    url: https://github.com/LFRon/webkit2gtk-for-linyaps/releases/download/2.48.0-1/libwebkit2gtk-4.1-0_2.48.0-1_amd64.deb
+    digest: 6e0587cad04f8e235014fe69891682275d678297f5f6a7c1a1814612a71c64ed
   - kind: file
     url: https://community-packages.deepin.com/deepin/beige/pool/main/libw/libwebp/libwebp7_1.3.2-0.2_amd64.deb
     digest: f2271cabfa4d4847bef8a522e2775d4f9c09a2560911df4779a7cc06d650eec6
@@ -933,6 +948,9 @@ sources:
     url: https://community-packages.deepin.com/deepin/beige/pool/main/libx/libxml2/libxml2_2.9.14+dfsg-1.3+rb2_amd64.deb
     digest: 36b25f4121dd6765f49a5249a94f675139c4fbaae04be5ccc1ac3ae59f1e40c2
   - kind: file
+    url: https://community-packages.deepin.com/deepin/beige/pool/main/libx/libxmlb/libxmlb2_0.3.14-2_amd64.deb
+    digest: b7c560d9ef6d42ea8c8c01b96ad57b93ad53c76bcb585702c9cbdb6882ca3723
+  - kind: file
     url: https://community-packages.deepin.com/deepin/beige/pool/main/libx/libxrandr/libxrandr2_1.5.2-1_amd64.deb
     digest: 99f09cd408f97768ac9bc9beca6af549a4c3b9dc91f5225bf3a0fab96410f833
   - kind: file
@@ -950,6 +968,9 @@ sources:
   - kind: file
     url: https://community-packages.deepin.com/deepin/beige/pool/main/libx/libxxf86vm/libxxf86vm1_1.1.4-deepin1_amd64.deb
     digest: 6ab24dd183238d561320ff6ab17df620297d4058d82e02606354740c0b8180f8
+  - kind: file
+    url: https://community-packages.deepin.com/deepin/beige/pool/main/liby/libyaml/libyaml-0-2_0.2.2-1_amd64.deb
+    digest: 62b93a22bdbc83d2988334ab5f5fb8ca3a808c88f20157bc2506a603d8da84b5
   - kind: file
     url: https://community-packages.deepin.com/deepin/beige/pool/main/liby/libyuv/libyuv0_0.0.1888.20240710-3_amd64.deb
     digest: ee79d2e37a74fff74155751702fc35a4623f23093950fecb5cadb80dc23b9f6c
@@ -972,8 +993,8 @@ sources:
     url: https://community-packages.deepin.com/deepin/beige/pool/main/u/util-linux/mount_2.40.4-3deepin4_amd64.deb
     digest: 03982d0b90de3d0fb143d4e0720959c8181959e4f146b529b0683861f4859c7e
   - kind: file
-    url: https://community-packages.deepin.com/deepin/beige/pool/main/o/openoffice.org-en-au/myspell-en-au_2.1-7_all.deb
-    digest: 89b1de133559b843566e26e09844b4efb9e8bf4f09a6c141eadbba4c86fdfece
+    url: https://community-packages.deepin.com/deepin/beige/pool/main/h/hkgerman/myspell-de-de-1901_2-37_all.deb
+    digest: 3d865c76fe0da345adf73486d3a3102f40b8e80aaebfe4bd5891ed6b59dfd20f
   - kind: file
     url: https://community-packages.deepin.com/deepin/beige/pool/main/s/shadow/passwd_4.16.0-7deepin1_amd64.deb
     digest: 9f60d031e7f4399dbe01d4dbd7fd0e328bc71c3cdea069f1b61f192af6884b60

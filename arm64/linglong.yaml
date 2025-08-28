@@ -16,7 +16,7 @@ build: |
 
 sources:
   # linglong:gen_deb_source sources arm64 https://community-packages.deepin.com/deepin/beige crimson main commercial community
-  # linglong:gen_deb_source install libgtk-4-1, libgtk-4-common, libwebkit2gtk-4.1-0, libgtk-4-media-gstreamer
+  # linglong:gen_deb_source install libgtk-4-1, libgtk-4-common, libwebkit2gtk-4.1-0, libadwaita-1-0, libgtk-4-media-gstreamer
   - kind: file
     url: https://community-packages.deepin.com/deepin/beige/pool/main/a/adduser/adduser_3.131-1deepin2_all.deb
     digest: 7165c1918cafcb0e026649217b0ae58a77a143a6b39650313cdfc29fd1087492
