@@ -1,7 +1,7 @@
 version: "1"
 
 package:
-  id: org.deepin.runtime.gtk4
+  id: org.deepin.runtime.gtk
   name: Linyaps GTK4 Runtime
   kind: runtime
   version: 25.2.0.1
@@ -16,7 +16,7 @@ build: |
 
 sources:
   # linglong:gen_deb_source sources amd64 https://community-packages.deepin.com/deepin/beige crimson main commercial community
-  # linglong:gen_deb_source install libgtk-4-1, libgtk-4-common, libwebkit2gtk-4.1-0, libadwaita-1-0, libgtk-4-media-gstreamer, libavif16
+  # linglong:gen_deb_source install libgtk-4-1, libgtk-4-common, libwebkit2gtk-4.1-0, libadwaita-1-0, libgtk-4-media-gstreamer, libavif16, libgtk-3-0, libgtk-3-bin, libgtk-3-common, libgtk-3-doc
   - kind: file
     url: https://community-packages.deepin.com/deepin/beige/pool/main/a/adduser/adduser_3.131-1deepin2_all.deb
     digest: 7165c1918cafcb0e026649217b0ae58a77a143a6b39650313cdfc29fd1087492
@@ -24,8 +24,8 @@ sources:
     url: https://community-packages.deepin.com/deepin/beige/pool/main/a/adwaita-icon-theme/adwaita-icon-theme_45.0-2_all.deb
     digest: 709761989d315d674f0e14c837afdd256ef58c941e49889307eb41f969e69069
   - kind: file
-    url: https://community-packages.deepin.com/deepin/beige/pool/main/a/aspell-kk/aspell-kk_0.2-3_all.deb
-    digest: a8fa185aa37e415969325cef57fbe0a478cb0b420b27a9b40a6e37967fe213e5
+    url: https://community-packages.deepin.com/deepin/beige/pool/main/i/ispell-lt/aspell-lt_1.3.2-3_all.deb
+    digest: 581d31db4ab16f79eb5318e5b9d21b7f78095c0083c7ca417c77fe9c345d1714
   - kind: file
     url: https://community-packages.deepin.com/deepin/beige/pool/main/a/aspell/aspell_0.60.8-6_amd64.deb
     digest: d0a1cf2583ca5ed794671c4156ff6d03c7ceb7166c8d752f828f17ebdde4c7b6
@@ -138,8 +138,8 @@ sources:
     url: https://community-packages.deepin.com/deepin/beige/pool/main/s/scowl/hunspell-en-us_2020.12.07-1_all.deb
     digest: 6a8253970b5399571a39d53de050d169ed3eae866aa656b0dea37531a68549de
   - kind: file
-    url: https://community-packages.deepin.com/deepin/beige/pool/main/i/ispell/iamerican_3.4.02-2_all.deb
-    digest: 05a93ec14dedb8fcac615b11d60f48ec83a534c1b7497f4408bda70e687298d3
+    url: https://community-packages.deepin.com/deepin/beige/pool/main/i/ispell/iamerican-huge_3.4.02-2_all.deb
+    digest: 6bbfae1a92d2ff19e2617f7e6065dc6ee005a75ff63eb8d5d0fe77e361c07d59
   - kind: file
     url: https://community-packages.deepin.com/deepin/beige/pool/main/i/ispell/ienglish-common_3.4.02-2_all.deb
     digest: 7d9c9bbe2db42af0a15f7374cbd6e56d4b16341c86867b7c2f301d119658e1bc
@@ -471,8 +471,14 @@ sources:
     url: https://community-packages.deepin.com/deepin/beige/pool/main/g/gtk+3.0/libgtk-3-0_3.24.41-1deepin5_amd64.deb
     digest: 94f1e944d2b2a0ff523218c3f6f10586c59aebead175d7e2f2ee360ad77360d6
   - kind: file
+    url: https://community-packages.deepin.com/deepin/beige/pool/main/g/gtk+3.0/libgtk-3-bin_3.24.41-1deepin5_amd64.deb
+    digest: cf1042e1f552868f58d23c7a98138972466ca602e56a4486536363f71f8cd181
+  - kind: file
     url: https://community-packages.deepin.com/deepin/beige/pool/main/g/gtk+3.0/libgtk-3-common_3.24.41-1deepin5_all.deb
     digest: 2d01b08520d07a0be923c5caf80ca5ca900f0d4e21ff1b6bd5f9ce9623a77e9a
+  - kind: file
+    url: https://community-packages.deepin.com/deepin/beige/pool/main/g/gtk+3.0/libgtk-3-doc_3.24.41-1deepin5_all.deb
+    digest: 59a10fe54c05c77fbcd0e638824bf59985d0f81321ee6ee1dcc06b788d031cbf
   - kind: file
     url: https://community-packages.deepin.com/deepin/beige/pool/main/g/gtk4/libgtk-4-1_4.16.7+ds-1deepin1_amd64.deb
     digest: 73926670a88ffa96d8798a1fcd699e83efc8e48b57d4ac1b230d365dfb43aa84
@@ -993,8 +999,8 @@ sources:
     url: https://community-packages.deepin.com/deepin/beige/pool/main/u/util-linux/mount_2.40.4-3deepin4_amd64.deb
     digest: 03982d0b90de3d0fb143d4e0720959c8181959e4f146b529b0683861f4859c7e
   - kind: file
-    url: https://community-packages.deepin.com/deepin/beige/pool/main/h/hkgerman/myspell-de-de-1901_2-37_all.deb
-    digest: 3d865c76fe0da345adf73486d3a3102f40b8e80aaebfe4bd5891ed6b59dfd20f
+    url: https://community-packages.deepin.com/deepin/beige/pool/main/n/norwegian/myspell-nb_2.2-4_all.deb
+    digest: f1f77ccc78938fc7b094da17880862150e20c9ea4952f6171aff649653c21c4f
   - kind: file
     url: https://community-packages.deepin.com/deepin/beige/pool/main/s/shadow/passwd_4.16.0-7deepin1_amd64.deb
     digest: 9f60d031e7f4399dbe01d4dbd7fd0e328bc71c3cdea069f1b61f192af6884b60
