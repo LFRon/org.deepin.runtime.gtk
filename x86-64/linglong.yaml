@@ -23,10 +23,10 @@ sources:
     digest: 6e0587cad04f8e235014fe69891682275d678297f5f6a7c1a1814612a71c64ed
   # linglong:gen_deb_source sources amd64 https://ci.deepin.com/repo/deepin/deepin-community/stable crimson/release main commercial community
   # linglong:gen_deb_source install libgtk-4-1, libgtk-4-common, libwebkit2gtk-4.1-0, libadwaita-1-0, libgtk-4-media-gstreamer, libavif16, libgtk-3-0, libgtk-3-bin, libgtk-3-common
-  # linglong:gen_deb_source exclude libwebkit2gtk-4.1-0, libjavascriptcoregtk-4.1-0 
+  # linglong:gen_deb_source exclude libwebkit2gtk-4.1-0, libjavascriptcoregtk-4.1-0, fonts-croscore, fonts-freefont-otf, fonts-freefont-ttf, fonts-liberation, fonts-texgyre
   - kind: file
-    url: https://ci.deepin.com/repo/deepin/deepin-community/stable/pool/main/i/ispell-uk/aspell-uk_1.8.0+dfsg-1_all.deb
-    digest: 70ed650cd85debf85f454ca141d7e65eeefa390aad939d2347143f2fa04ad7ab
+    url: https://ci.deepin.com/repo/deepin/deepin-community/stable/pool/community/x/xuxen-eu-spell/aspell-eu_3.0.20070215-1_all.deb
+    digest: f8c08277ed04cbe85eef2e3875196252a65e38e4178ae53000ece4a7340ab9c6
   - kind: file
     url: https://ci.deepin.com/repo/deepin/deepin-community/stable/pool/main/a/aspell/aspell_0.60.8-6_amd64.deb
     digest: d0a1cf2583ca5ed794671c4156ff6d03c7ceb7166c8d752f828f17ebdde4c7b6
@@ -220,8 +220,8 @@ sources:
     url: https://ci.deepin.com/repo/deepin/deepin-community/stable/pool/main/liby/libyuv/libyuv0_0.0.1888.20240710-3_amd64.deb
     digest: ee79d2e37a74fff74155751702fc35a4623f23093950fecb5cadb80dc23b9f6c
   - kind: file
-    url: https://ci.deepin.com/repo/deepin/deepin-community/stable/pool/main/d/dsdo/myspell-da_1.6.36-11.1_all.deb
-    digest: e33e7b58e330e38e1617fa890d876eae431c58b174d434440daa7057b2ac4217
+    url: https://ci.deepin.com/repo/deepin/deepin-community/stable/pool/main/i/ispell-czech/myspell-cs_20040229-9_all.deb
+    digest: 4f3458ea9346ee21ad3cf6383441bcee22d846422691b2a48cba76dfd5e23d3d
   - kind: file
     url: https://ci.deepin.com/repo/deepin/deepin-community/stable/pool/main/u/usrmerge/usrmerge_39+nmu2deepin1_all.deb
     digest: 544feca0992471720cd5648cf88b0241df5d32cf72c2037ab5d19fd617a15a29
