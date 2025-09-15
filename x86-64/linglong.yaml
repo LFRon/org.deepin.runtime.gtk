@@ -22,11 +22,11 @@ sources:
     url: https://github.com/LFRon/webkit2gtk-for-linyaps/releases/download/2.48.0-1/libwebkit2gtk-4.1-0_2.48.0-1_amd64.deb
     digest: 6e0587cad04f8e235014fe69891682275d678297f5f6a7c1a1814612a71c64ed
   # linglong:gen_deb_source sources amd64 https://ci.deepin.com/repo/deepin/deepin-community/stable crimson/release main commercial community
-  # linglong:gen_deb_source install libgtk-4-1, libgtk-4-common, libwebkit2gtk-4.1-0, libadwaita-1-0, libgtk-4-media-gstreamer, libavif16, libgtk-3-0, libgtk-3-bin, libgtk-3-common, libgtk-3-doc
+  # linglong:gen_deb_source install libgtk-4-1, libgtk-4-common, libwebkit2gtk-4.1-0, libadwaita-1-0, libgtk-4-media-gstreamer, libavif16, libgtk-3-0, libgtk-3-bin, libgtk-3-common
   # linglong:gen_deb_source exclude libwebkit2gtk-4.1-0, libjavascriptcoregtk-4.1-0 
   - kind: file
-    url: https://ci.deepin.com/repo/deepin/deepin-community/stable/pool/main/i/ispell-et/aspell-et_20030606-32_all.deb
-    digest: 9dfec3c9424476c7515caa3612770bdbf153a8522fe881e7957a064e5e03afc3
+    url: https://ci.deepin.com/repo/deepin/deepin-community/stable/pool/main/i/ispell-uk/aspell-uk_1.8.0+dfsg-1_all.deb
+    digest: 70ed650cd85debf85f454ca141d7e65eeefa390aad939d2347143f2fa04ad7ab
   - kind: file
     url: https://ci.deepin.com/repo/deepin/deepin-community/stable/pool/main/a/aspell/aspell_0.60.8-6_amd64.deb
     digest: d0a1cf2583ca5ed794671c4156ff6d03c7ceb7166c8d752f828f17ebdde4c7b6
@@ -37,21 +37,6 @@ sources:
     url: https://ci.deepin.com/repo/deepin/deepin-community/stable/pool/main/d/dbus-broker/dbus-broker_29-3_amd64.deb
     digest: 68ff1baedb2f4ced1ff5d2f9c3e59bd21e741b7710931e0539c89ef5951df8ba
   - kind: file
-    url: https://ci.deepin.com/repo/deepin/deepin-community/stable/pool/main/f/fonts-noto/fonts-croscore_20201225-deepin_all.deb
-    digest: afbaf120869a08aa7dd14da9ad014de48a751aa4330534b531410bb86c411b55
-  - kind: file
-    url: https://ci.deepin.com/repo/deepin/deepin-community/stable/pool/main/f/fonts-freefont/fonts-freefont-otf_20120503-10_all.deb
-    digest: c66666da94b9a0477351ee9d6d7a247a0a3c842e428da770991b45f03be2ee72
-  - kind: file
-    url: https://ci.deepin.com/repo/deepin/deepin-community/stable/pool/main/f/fonts-freefont/fonts-freefont-ttf_20120503-10_all.deb
-    digest: 79b23c3945d4628463672a804a0e81bc4c262ef87cb6316afb40167a50bc3145
-  - kind: file
-    url: https://ci.deepin.com/repo/deepin/deepin-community/stable/pool/main/f/fonts-liberation/fonts-liberation_2.1.5-3_all.deb
-    digest: 9285213fd8d6515bc6c1be5b810bf39918a668a17024a9fd3541879ce7fb5344
-  - kind: file
-    url: https://ci.deepin.com/repo/deepin/deepin-community/stable/pool/main/t/tex-gyre/fonts-texgyre_20180621-3.1_all.deb
-    digest: f66d6f798c4b99d8490558cc8209c069b0fe5577c11378c0e01f9e87ddf10824
-  - kind: file
     url: https://ci.deepin.com/repo/deepin/deepin-community/stable/pool/main/g/gst-plugins-base1.0/gstreamer1.0-plugins-base_1.24.6-1_amd64.deb
     digest: 3a15070887e53d04d0866eded24713e905f78309ead3da0bf4710654406a082f
   - kind: file
@@ -61,8 +46,11 @@ sources:
     url: https://ci.deepin.com/repo/deepin/deepin-community/stable/pool/main/s/scowl/hunspell-en-us_2020.12.07-1_all.deb
     digest: 6a8253970b5399571a39d53de050d169ed3eae866aa656b0dea37531a68549de
   - kind: file
-    url: https://ci.deepin.com/repo/deepin/deepin-community/stable/pool/main/i/ispell.pt/iportuguese_20210922-1_all.deb
-    digest: 422da4b919fba43b0fcb76e416511e880e8625c6648c370185fba2130b21a475
+    url: https://ci.deepin.com/repo/deepin/deepin-community/stable/pool/main/i/ispell/ibritish-large_3.4.02-2_all.deb
+    digest: b7d11baba9e29ff15fe4326110cb341344cbe2c1403de6783f4cd549813edf96
+  - kind: file
+    url: https://ci.deepin.com/repo/deepin/deepin-community/stable/pool/main/i/ispell/ienglish-common_3.4.02-2_all.deb
+    digest: 7d9c9bbe2db42af0a15f7374cbd6e56d4b16341c86867b7c2f301d119658e1bc
   - kind: file
     url: https://ci.deepin.com/repo/deepin/deepin-community/stable/pool/main/i/ispell/ispell_3.4.02-2_amd64.deb
     digest: 2db3cd70af980d785fe5701f824cbbbdc8bc8a1d0258494e95fb74a2a6aec158
@@ -135,9 +123,6 @@ sources:
   - kind: file
     url: https://ci.deepin.com/repo/deepin/deepin-community/stable/pool/main/g/gtk+3.0/libgtk-3-bin_3.24.41-1deepin4_amd64.deb
     digest: 45b932ae9e58be9050aff4d25b5ac3378dfc5308576c95dfec554b10deab7dd0
-  - kind: file
-    url: https://ci.deepin.com/repo/deepin/deepin-community/stable/pool/main/g/gtk+3.0/libgtk-3-doc_3.24.41-1deepin4_all.deb
-    digest: 05af4175d9f451eed7dbbd8d351447a445b00a210aee9e810222d08f81fe711d
   - kind: file
     url: https://ci.deepin.com/repo/deepin/deepin-community/stable/pool/main/g/gtk4/libgtk-4-1_4.16.7+ds-1deepin1_amd64.deb
     digest: 73926670a88ffa96d8798a1fcd699e83efc8e48b57d4ac1b230d365dfb43aa84
@@ -235,8 +220,8 @@ sources:
     url: https://ci.deepin.com/repo/deepin/deepin-community/stable/pool/main/liby/libyuv/libyuv0_0.0.1888.20240710-3_amd64.deb
     digest: ee79d2e37a74fff74155751702fc35a4623f23093950fecb5cadb80dc23b9f6c
   - kind: file
-    url: https://ci.deepin.com/repo/deepin/deepin-community/stable/pool/main/i/ispell-czech/myspell-cs_20040229-9_all.deb
-    digest: 4f3458ea9346ee21ad3cf6383441bcee22d846422691b2a48cba76dfd5e23d3d
+    url: https://ci.deepin.com/repo/deepin/deepin-community/stable/pool/main/d/dsdo/myspell-da_1.6.36-11.1_all.deb
+    digest: e33e7b58e330e38e1617fa890d876eae431c58b174d434440daa7057b2ac4217
   - kind: file
     url: https://ci.deepin.com/repo/deepin/deepin-community/stable/pool/main/u/usrmerge/usrmerge_39+nmu2deepin1_all.deb
     digest: 544feca0992471720cd5648cf88b0241df5d32cf72c2037ab5d19fd617a15a29
