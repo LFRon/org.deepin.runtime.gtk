@@ -23,7 +23,8 @@ sources:
     digest: 6e0587cad04f8e235014fe69891682275d678297f5f6a7c1a1814612a71c64ed
   # linglong:gen_deb_source sources amd64 https://ci.deepin.com/repo/deepin/deepin-community/stable crimson/release main commercial community
   # linglong:gen_deb_source install libgtk-4-1, libgtk-4-common, libwebkit2gtk-4.1-0, libadwaita-1-0, libgtk-4-media-gstreamer, libavif16, libgtk-3-0, libgtk-3-bin, libgtk-3-common
-  # linglong:gen_deb_source exclude libwebkit2gtk-4.1-0, libjavascriptcoregtk-4.1-0, fonts-croscore, fonts-freefont-otf, fonts-freefont-ttf, fonts-liberation, fonts-texgyre
+  # linglong:gen_deb_source exclude fonts-croscore, fonts-freefont-otf, fonts-freefont-ttf, fonts-liberation, fonts-texgyre
+  # linglong:gen_deb_source exclude libwebkit2gtk-4.1-0, libjavascriptcoregtk-4.1-0
   - kind: file
     url: https://ci.deepin.com/repo/deepin/deepin-community/stable/pool/community/x/xuxen-eu-spell/aspell-eu_3.0.20070215-1_all.deb
     digest: f8c08277ed04cbe85eef2e3875196252a65e38e4178ae53000ece4a7340ab9c6
