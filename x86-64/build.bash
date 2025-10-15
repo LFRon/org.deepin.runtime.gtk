@@ -3,4 +3,4 @@
 echo "- 开始构建Runtime"
 bash ./install_dep linglong/sources "$PREFIX"
 # 删除字体文件
-rm -r $PREFIX/share/fonts
+rm -rf $PREFIX/share/fonts
